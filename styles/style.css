@@ -50,6 +50,7 @@ button{
     margin-left: 18px;
     padding-bottom: 14px;
     letter-spacing: -0.75px;
+    cursor: pointer;
 }
 .button-about{
     margin-top: 50px;
@@ -121,14 +122,7 @@ button{
     margin-top: 77px;
 }
 
-@media screen and (max-width: 1049px){
-    .header__top,.menu_list,.header__description{
-        flex-direction: column;
-        gap: 30px;
-        align-items:start;
-    }
-    
-    }
+
 
 .text{
     font-family: "spaceagecycillic";
@@ -662,6 +656,7 @@ h2{
     border-bottom:1px solid rgb(37, 24, 24);
     background-color: rgba(0,0,0,0.1);
     padding: 10px;
+    color:white;
 
 }
 .text-input:nth-child(1){
@@ -739,14 +734,119 @@ input::placeholder{
 .info__list{}
 .info__item{}
 
+@media screen and (max-width: 1049px){
+    .header__top,.menu_list,.header__description{
+        flex-direction: column;
+        gap: 30px;
+        align-items:start;
+    }
+    .phone {
+        font-size: 16px;
+        margin-top: 18px;
+        margin-left: 18px;
+    }
+    .text {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .text2 {
+        text-align: center;
+    }
+    .content-text {
+        justify-content: center;
+    }
+    .header__button{
+        text-align: center;
+    }
+    .description-text {
+        justify-content: center;
+        margin-top: 61px;
+        font-size: 20px;
+        margin-left:0;
+    }
+    .header {
+        background-position: center;
+    }
+    .about{
+        height: 4319px;
+        max-height: max-content;
+    }
+    .card {
+        display: block;
+        text-align: center;
+    }
+    .card__heading {
+        margin-top: 23px;
+        text-align: center;  
+    }
+    .card__label {
+        text-align: center;
+    }
+    .card__columns {
+        justify-content: center;
+    }
+    .button-about {
+        margin-left: 341px;
+        margin-bottom: 30px;
+    }
+    .book__inner {
+        display: block;
+    }
+    .book__pharagraphs {
+        font-size: 19px;
+        margin-top: -79px;
+        margin-left: 30px;
+    }
+    .price {
+        display: inline-block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    }
+    /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /***
 1 - id
 1 - class, псевдоклассы
 1 - element (tag), псевдоэлементы
 */
-
-/*011*/
+/* 
+011
 div.container {
 }
 
@@ -756,7 +856,7 @@ div#container {
 }
 
 /*003*/
-div > p::before {
+div > p::before { */
 
 }
 
