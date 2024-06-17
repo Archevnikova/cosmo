@@ -738,12 +738,12 @@ input::placeholder{
     .header__top,.menu_list,.header__description{
         flex-direction: column;
         gap: 30px;
-        align-items:start;
+        align-items:center;
     }
     .phone {
         font-size: 16px;
         margin-top: 18px;
-        margin-left: 18px;
+        margin-left: 142px;
     }
     .text {
         text-align: center;
@@ -800,19 +800,26 @@ input::placeholder{
     .price {
         display: inline-block;
     }
-
-
-
-
-
-
-
-
-
-
-
+    .service{
+        display: block;
     }
-    /*  */
+    .gallery{
+        display: none;
+    }
+    .card-contacts-guarantees{
+        gap: 180px;
+    }
+    .guarantees__description {
+        width: 375px;
+        margin: -153px 0px 5px 44px;
+    }
+    .img-guarentees {
+        margin: -1px 5px 9px 43px;
+    }
+    .footer-inner {
+        justify-content: center;
+    }
+    
 
 
 
